@@ -153,3 +153,11 @@ footer a { margin-right: 18px; }
   .wa-float { right: 14px; bottom: 70px; padding: 14px; }
   .wa-float span { display: none; }
 }
+
+/* Mobile: photo first, headline and surface picker under it. */
+@media (max-width: 900px) {
+  .hero { padding-top: 0; gap: 22px; }
+  .hero-media { order: -1; margin: 0 calc(-1 * var(--pad)); }
+  .pick-shot img { aspect-ratio: 3 / 2; border-radius: 0; }
+  .badge { left: var(--pad); }
+}
