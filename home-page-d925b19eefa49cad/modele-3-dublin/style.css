@@ -144,3 +144,12 @@ footer a { margin-right: 18px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.wa-float { position: fixed; right: 20px; bottom: 20px; z-index: 6; display: inline-flex; align-items: center; gap: 10px; padding: 13px 20px 13px 16px; border-radius: 999px; background: #1a9e4b; color: #fff; font: 700 1rem/1 system-ui, sans-serif; text-decoration: none; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28); }
+.wa-float:hover { background: #14803c; }
+.wa-float:focus-visible { outline: 3px solid #fff; outline-offset: -5px; }
+@media (max-width: 900px) {
+  .sticky { grid-template-columns: 1fr 1.3fr !important; }
+  .wa-float { right: 14px; bottom: 70px; padding: 14px; }
+  .wa-float span { display: none; }
+}
