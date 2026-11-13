@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+  src: url("fonts/big-shoulders-display-600-900.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/public-sans-400-700.woff2") format("woff2");
+}
